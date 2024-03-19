@@ -25,3 +25,18 @@
 #container a {
   text-decoration: none;
 }
+
+.botones-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.boton-personalizado {
+  background: White; /* Color de fondo del botón */
+  color: black; /* Color del texto del botón */
+  width: 200px; /* Ancho del botón */
+  border-radius: 10px; /* Bordes redondeados del botón */
+}
